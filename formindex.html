@@ -1,0 +1,50 @@
+<html>
+<head>
+ <title>Survey Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Please complete our survey</h1>
+
+<form name="myform" action="survey_data.html" method="get">
+<h2>Contact information</h2>
+<label for="email">Email address:</label>
+
+    <input type="email" name="email"><br>
+
+    <label for="firstname">First name:</label>
+
+    <input type="text" name="firstname"><br>
+
+    <label for="lastname">Last name:</label>
+
+    <input type="text" name="lastname"><br>
+
+
+<h2>Geographic information</h2>
+<label for="State">State:</label>
+   <input type="text" placeholder=" Two characters"><br>
+<label for="Zip code">Zip Code:</label>
+   <input type="text" placeholder="Five digits"><br>
+
+<h2>How did you hear about us</h2>
+<label for="Web Search:">Web Search:</label>
+<input type="checkbox" name="Web search" id="websearch"><br>
+<label for="Facebook:">Facebook:</label>
+<input type="checkbox" name="Facebook" id="Facebook" style="margin-right:-3 "><br>
+<label for="Twitter:">Twitter:</label>
+<input type="checkbox" name="Twitter" id="Twitter"><br>
+<label for="Email Message">Email message:</label>
+    <input type="checkbox" name="Email message" id="Email Message"><br>
+    <h2>Thank you for taking our survey!</h2>
+
+    <input type="submit" name="button" id="button" value="Submit">
+
+    <input type="reset" name="reset" id="reset">
+
+</form>
+
+</body>
+
+</html>
